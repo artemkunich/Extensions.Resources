@@ -6,7 +6,7 @@ namespace Akunich.Extensions.Resources;
 
 internal sealed class ResourceProvider : IResourceProvider
 {
-    internal static ResourceManager ResourceManager;// = new(typeof(Properties.Resources));
+    internal static ResourceManager ResourceManager;
 
     private readonly CultureInfo _cultureInfo;
 
